@@ -1,5 +1,5 @@
 ## Talabat API
-  This API is built with ASP.NET Core following Clean Architecture principles. It serves as the backend for an e-commerce platform, handling product management, order processing, shopping carts, and user reviews.
+  This API is built with ASP.NET Core following Clean Architecture principles. It serves as the backend for an e-commerce platform, handling product management, order processing, shopping carts.
 
 ## Features
 - Product Management: List products, with details like name, description, price, discount, and image URL.
