@@ -50,7 +50,7 @@ namespace Talabat.Infrastructure.Extention
                     .AddEntityFrameworkStores<TalabatDbContext>()
                     .AddDefaultTokenProviders();
 
-            services.Configure<StripeSettings>(configuration.GetSection(JwtSettings.SectionName));
+            services.Configure<JwtSettings>(configuration.GetSection(JwtSettings.SectionName));
             JwtSettings _jwt = new JwtSettings();
             configuration.Bind(JwtSettings.SectionName, _jwt);
 
