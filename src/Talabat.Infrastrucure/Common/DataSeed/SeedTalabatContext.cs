@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
+﻿using System.Text.Json;
 using Talabat.Domain.order;
 using Talabat.Domain.product;
 using Talabat.Domain.productBrand;
 using Talabat.Domain.productType;
-using Talabat.Infrastructure.Common.Presistance;
 
 namespace Talabat.Infrastructure.Common.DataSeed
 {

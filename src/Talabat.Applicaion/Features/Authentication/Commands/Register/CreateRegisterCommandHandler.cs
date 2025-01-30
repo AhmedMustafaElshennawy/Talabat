@@ -51,7 +51,7 @@ namespace Talabat.Applicaion.Features.Authentication.Commands.RegisterCommand
                 }
             }
 
-            if (CheckIfEmailExists(request.Email).Result is true)
+            if (!await CheckIfEmailExists(request.Email) is true)
             {
                 return Error.Failure(
                     code: "Email.Failure",

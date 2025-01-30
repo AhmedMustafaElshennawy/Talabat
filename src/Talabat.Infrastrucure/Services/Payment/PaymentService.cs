@@ -1,10 +1,5 @@
 ﻿using Microsoft.Extensions.Options;
 using Stripe;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
 using Talabat.Applicaion.Common.Interfaces.UnitOfWork;
 using Talabat.Applicaion.Services.Payment;

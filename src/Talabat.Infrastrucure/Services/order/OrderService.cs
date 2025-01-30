@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
+﻿using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
 using Talabat.Applicaion.Common.Interfaces.UnitOfWork;
 using Talabat.Applicaion.Services.Payment;
 using Talabat.Domain.order;
-using Talabat.Infrastructure.Common.Interfaces.Repositories;
 
 namespace Talabat.Applicaion.Services.order
 {
@@ -61,7 +55,7 @@ namespace Talabat.Applicaion.Services.order
             var existingOrder = _OrderRepository.Entites()
                 .FirstOrDefault(x => x.PaymentIntentId == basket!.PaymentIntentId);
 
-            if (existingOrder != null)
+            if (existingOrder is not null)
             {
                 await _unitOfWork.Orders.DeleteAsync(existingOrder.Id);
                 await _paymentService.CreateOrUpdatePaymentIntent(BasketId);
