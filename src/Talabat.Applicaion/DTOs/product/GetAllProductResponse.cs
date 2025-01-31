@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Talabat.Domain.productBrand;
 using Talabat.Domain.productType;
 
-namespace Talabat.Applicaion.DTOs.product
+namespace Talabat.Application.DTOs.product
 {
     public record GetAllProductResponse
     {

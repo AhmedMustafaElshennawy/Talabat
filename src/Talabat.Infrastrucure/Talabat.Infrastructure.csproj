@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Talabat.Applicaion\Talabat.Applicaion.csproj" />
+    <ProjectReference Include="..\Talabat.Applicaion\Talabat.Application.csproj" />
   </ItemGroup>
 
 </Project>

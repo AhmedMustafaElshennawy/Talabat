@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Options;
 using Stripe;
-using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
 using Talabat.Applicaion.Common.Interfaces.UnitOfWork;
 using Talabat.Applicaion.Services.Payment;
+using Talabat.Application.Common.Interfaces.Authentication.Repositories;
 using Talabat.Domain.basket;
 using Talabat.Domain.order;
 

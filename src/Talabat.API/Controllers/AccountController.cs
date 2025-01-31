@@ -2,11 +2,12 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Talabat.Applicaion.DTOs.Authentication;
-using Talabat.Applicaion.Features.Authentication.Commands.Logout;
-using Talabat.Applicaion.Features.Authentication.Commands.RegisterCommand;
-using Talabat.Applicaion.Features.Authentication.Queries.CheckEmailExistence;
-using Talabat.Applicaion.Features.Authentication.Queries.GetCurrentUser;
-using Talabat.Applicaion.Features.Authentication.Queries.Login;
+using Talabat.Application.DTOs.Authentication;
+using Talabat.Application.Features.Authentication.Commands.Logout;
+using Talabat.Application.Features.Authentication.Commands.RegisterCommand;
+using Talabat.Application.Features.Authentication.Queries.CheckEmailExistence;
+using Talabat.Application.Features.Authentication.Queries.GetCurrentUser;
+using Talabat.Application.Features.Authentication.Queries.Login;
 
 namespace Talabat.API.Controllers
 {

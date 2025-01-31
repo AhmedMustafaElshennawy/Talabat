@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Talabat.Applicaion.Features.Authentication.Commands.Logout
+namespace Talabat.Application.Features.Authentication.Commands.Logout
 {
     public record LogOutQuery():IRequest<ErrorOr<Unit>>;    
 }

@@ -1,16 +1,11 @@
 ﻿using ErrorOr;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Talabat.Applicaion.Common.Interfaces.Authentication;
 using Talabat.Applicaion.DTOs.Authentication;
+using Talabat.Application.Common.Interfaces.Authentication;
 using Talabat.Domain.identity;
 
-namespace Talabat.Applicaion.Features.Authentication.Queries.Login
+namespace Talabat.Application.Features.Authentication.Queries.Login
 {
     public class LoginQueryHandler : IRequestHandler<LoginQuery, ErrorOr<RegisterDto>>
     {

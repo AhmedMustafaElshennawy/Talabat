@@ -2,14 +2,9 @@
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
-using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
-using Talabat.Applicaion.Services.order;
+using Talabat.Application.Common.Interfaces.Authentication.Repositories;
+using Talabat.Application.Features.order.Queries.GetUserOrders;
 using Talabat.Domain.identity;
 using Talabat.Domain.order;
 

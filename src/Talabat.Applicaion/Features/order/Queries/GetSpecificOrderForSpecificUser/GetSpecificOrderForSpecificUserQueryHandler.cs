@@ -2,17 +2,12 @@
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
-using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
+using Talabat.Application.Common.Interfaces.Authentication.Repositories;
 using Talabat.Domain.identity;
 using Talabat.Domain.order;
 
-namespace Talabat.Applicaion.Features.order.Queries.GetSpecificOrderForSpecificUser
+namespace Talabat.Application.Features.order.Queries.GetSpecificOrderForSpecificUser
 {
     public class GetSpecificOrderForSpecificUserQueryHandler : IRequestHandler<GetSpecificOrderForSpecificUserQuery, ErrorOr<Order>>
     {

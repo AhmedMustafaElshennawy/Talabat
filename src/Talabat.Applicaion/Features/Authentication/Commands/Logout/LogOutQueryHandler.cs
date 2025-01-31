@@ -2,11 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Talabat.Application.Features.Authentication.Commands.Logout;
 using Talabat.Domain.identity;
 
 namespace Talabat.Applicaion.Features.Authentication.Commands.Logout

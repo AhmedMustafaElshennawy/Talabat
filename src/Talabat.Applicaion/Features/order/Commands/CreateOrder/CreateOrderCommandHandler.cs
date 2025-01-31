@@ -7,7 +7,7 @@ using Talabat.Applicaion.Services.order;
 using Talabat.Domain.identity;
 using Talabat.Domain.order;
 
-namespace Talabat.Applicaion.Features.order.Commands.CreateOrder
+namespace Talabat.Application.Features.order.Commands.CreateOrder
 {
     public class CreateOrderCommandHandler : IRequestHandler<CreateOrderCommand, ErrorOr<Order>>
     {

@@ -1,16 +1,9 @@
 ﻿using ErrorOr;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
-using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
-using Talabat.Applicaion.DTOs.product;
-using Talabat.Domain.product;
+using Talabat.Application.Common.Interfaces.Authentication.Repositories;
+using Talabat.Application.DTOs.product;
 
-namespace Talabat.Applicaion.Features.product.Queries.GetProductById
+namespace Talabat.Application.Features.product.Queries.GetProductById
 {
     public class GetProductByIdQueryHandler : IRequestHandler<GetProductByIdQuery, ErrorOr<GetProductByIdResponse>>
     {

@@ -6,9 +6,9 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using Talabat.Applicaion.Common.Behavior;
+using Talabat.Application.Common.Behavior;
 
-namespace Talabat.Applicaion.Extention
+namespace Talabat.Application.Extention
 {
     public static class DependancyInjction
     {

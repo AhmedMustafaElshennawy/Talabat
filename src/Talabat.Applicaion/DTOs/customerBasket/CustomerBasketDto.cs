@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Talabat.Applicaion.DTOs.customerBasket
+namespace Talabat.Application.DTOs.customerBasket
 {
     public record CustomerBasketDto(
         string Id, 

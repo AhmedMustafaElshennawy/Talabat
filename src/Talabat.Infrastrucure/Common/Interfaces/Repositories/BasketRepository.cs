@@ -1,9 +1,6 @@
-﻿using Microsoft.AspNetCore.Connections;
-using Microsoft.Extensions.Caching.Memory;
-using StackExchange.Redis;
+﻿using StackExchange.Redis;
 using System.Text.Json;
-using System.Threading.Tasks;
-using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
+using Talabat.Application.Common.Interfaces.Authentication.Repositories;
 using Talabat.Domain.basket;
 
 namespace Talabat.Infrastructure.Common.Interfaces.Repositories

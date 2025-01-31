@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Talabat.Applicaion.DTOs.Authentication
+namespace Talabat.Application.DTOs.Authentication
 {
     public record RegisterRequest
     {

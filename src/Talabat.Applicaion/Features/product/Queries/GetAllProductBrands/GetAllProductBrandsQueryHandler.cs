@@ -1,17 +1,11 @@
 ﻿using ErrorOr;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
-using Talabat.Applicaion.DTOs.product;
+using Talabat.Application.Common.Interfaces.Authentication.Repositories;
+using Talabat.Application.DTOs.product;
 using Talabat.Domain.productBrand;
-using Talabat.Domain.productType;
 
-namespace Talabat.Applicaion.Features.product.Queries.GetAllProductBrands
+namespace Talabat.Application.Features.product.Queries.GetAllProductBrands
 {
     public class GetAllProductBrandsQueryHandler : IRequestHandler<GetAllProductBrandsQuery, ErrorOr<IEnumerable<GetProductBrandResponse>>>
     {

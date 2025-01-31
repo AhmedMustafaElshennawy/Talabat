@@ -1,10 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Talabat.Applicaion.DTOs.order;
-using Talabat.Applicaion.Features.order.Commands.CreateOrder;
-using Talabat.Applicaion.Features.order.Queries.GetDeliveryMethods;
-using Talabat.Applicaion.Features.order.Queries.GetSpecificOrderForSpecificUser;
-using Talabat.Applicaion.Features.order.Queries.GetUserOrders;
+using Talabat.Application.DTOs.order;
+using Talabat.Application.Features.order.Commands.CreateOrder;
+using Talabat.Application.Features.order.Queries.GetDeliveryMethods;
+using Talabat.Application.Features.order.Queries.GetSpecificOrderForSpecificUser;
+using Talabat.Application.Features.order.Queries.GetUserOrders;
 using Talabat.Domain.order;
 
 namespace Talabat.API.Controllers

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Talabat.Domain.basket;
 
-namespace Talabat.Applicaion.Common.Interfaces.Authentication.Repositories
+namespace Talabat.Application.Common.Interfaces.Authentication.Repositories
 {
     public interface IBasketRepository
     {

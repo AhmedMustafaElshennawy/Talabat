@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Talabat.Applicaion.Features.Authentication.Commands.RegisterCommand
+namespace Talabat.Application.Features.Authentication.Commands.RegisterCommand
 {
     public class CreateRegisterCommandValidator : AbstractValidator<CreateRegisterCommand>
     {

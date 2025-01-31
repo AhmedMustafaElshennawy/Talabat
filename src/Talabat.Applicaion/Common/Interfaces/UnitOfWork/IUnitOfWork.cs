@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
-using Talabat.Domain.identity;
+﻿using Talabat.Application.Common.Interfaces.Authentication.Repositories;
 using Talabat.Domain.order;
 using Talabat.Domain.product;
 using Talabat.Domain.productBrand;

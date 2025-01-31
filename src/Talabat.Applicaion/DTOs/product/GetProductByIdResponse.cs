@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Talabat.Applicaion.DTOs.product
+namespace Talabat.Application.DTOs.product
 {
     public class GetProductByIdResponse
     {

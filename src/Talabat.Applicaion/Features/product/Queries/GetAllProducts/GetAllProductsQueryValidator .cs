@@ -1,9 +1,7 @@
-﻿using Azure.Messaging;
-using ErrorOr;
-using FluentValidation;
+﻿using FluentValidation;
 using Talabat.Domain.product;
 
-namespace Talabat.Applicaion.Features.product.Queries.GetAllProducts
+namespace Talabat.Application.Features.product.Queries.GetAllProducts
 {
     public class GetAllProductsQueryValidator:AbstractValidator<GetAllProductsQuery>
     {

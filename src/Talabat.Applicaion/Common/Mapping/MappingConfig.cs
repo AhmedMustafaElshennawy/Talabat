@@ -1,13 +1,8 @@
 ﻿using Mapster;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Talabat.Applicaion.DTOs.customerBasket;
+using Talabat.Application.DTOs.customerBasket;
 using Talabat.Domain.basket;
 
-namespace Talabat.Applicaion.Common.Mapping
+namespace Talabat.Application.Common.Mapping
 {
     public static class MappingConfig
     {

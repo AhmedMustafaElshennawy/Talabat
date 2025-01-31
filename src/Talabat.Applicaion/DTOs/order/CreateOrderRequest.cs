@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Talabat.Domain.order;
 
-namespace Talabat.Applicaion.DTOs.order
+namespace Talabat.Application.DTOs.order
 {
     public class CreateOrderRequest
     {

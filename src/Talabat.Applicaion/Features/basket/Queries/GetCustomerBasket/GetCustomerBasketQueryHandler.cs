@@ -1,14 +1,9 @@
 ﻿using ErrorOr;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
+using Talabat.Application.Common.Interfaces.Authentication.Repositories;
 using Talabat.Domain.basket;
 
-namespace Talabat.Applicaion.Features.basket.Queries.GetCustomerBasket
+namespace Talabat.Application.Features.basket.Queries.GetCustomerBasket
 {
     public class GetCustomerBasketQueryHandler : IRequestHandler<GetCustomerBasketQuery, ErrorOr<CustomerBasket>>
     {

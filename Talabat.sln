@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.API", "src\Talabat.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Domain", "src\Talabat.Domain\Talabat.Domain.csproj", "{C0D9D4FF-8DCC-4E70-9580-98D0C99D067E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Applicaion", "src\Talabat.Applicaion\Talabat.Applicaion.csproj", "{04C4CBF1-CF3C-4CE2-BA60-0A1A78FF8CDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Application", "src\Talabat.Applicaion\Talabat.Application.csproj", "{04C4CBF1-CF3C-4CE2-BA60-0A1A78FF8CDC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Infrastructure", "src\Talabat.Infrastrucure\Talabat.Infrastructure.csproj", "{20E4A7B3-8F72-42B7-B078-68437406B7A1}"
 EndProject

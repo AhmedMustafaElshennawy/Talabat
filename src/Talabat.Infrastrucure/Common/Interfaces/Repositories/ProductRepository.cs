@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
+using Talabat.Application.Common.Interfaces.Authentication.Repositories;
 using Talabat.Domain.product;
-using Talabat.Infrastructure.Common.Presistance;
 using Talabat.Infrastructure.Common.Presistance.specifications;
 
 namespace Talabat.Infrastructure.Common.Interfaces.Repositories

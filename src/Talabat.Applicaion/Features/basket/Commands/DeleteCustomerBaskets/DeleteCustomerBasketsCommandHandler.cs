@@ -1,13 +1,8 @@
 ﻿using ErrorOr;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
+using Talabat.Application.Common.Interfaces.Authentication.Repositories;
 
-namespace Talabat.Applicaion.Features.basket.Commands.DeleteCustomerBaskets
+namespace Talabat.Application.Features.basket.Commands.DeleteCustomerBaskets
 {
     public class DeleteCustomerBasketsCommandHandler : IRequestHandler<DeleteCustomerBasketsCommand, ErrorOr<Unit>>
     {

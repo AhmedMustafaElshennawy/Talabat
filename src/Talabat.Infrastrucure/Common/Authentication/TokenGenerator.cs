@@ -4,7 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Talabat.Applicaion.Common.Interfaces.Authentication;
+using Talabat.Application.Common.Interfaces.Authentication;
 using Talabat.Domain.identity;
 
 namespace Talabat.Infrastructure.Common.Authentication

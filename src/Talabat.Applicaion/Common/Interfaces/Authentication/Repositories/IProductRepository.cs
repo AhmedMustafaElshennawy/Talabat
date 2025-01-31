@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Talabat.Domain.baseEntity;
 using Talabat.Domain.product;
 
-namespace Talabat.Applicaion.Common.Interfaces.Authentication.Repositories
+namespace Talabat.Application.Common.Interfaces.Authentication.Repositories
 {
     public interface IProductRepository : IBaseRepository<Product>
     {

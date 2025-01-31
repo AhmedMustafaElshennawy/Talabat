@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Talabat.Domain.identity;
 
-namespace Talabat.Applicaion.Common.Interfaces.Authentication
+namespace Talabat.Application.Common.Interfaces.Authentication
 {
     public interface ITokenGenerator
     {

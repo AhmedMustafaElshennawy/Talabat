@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Talabat.Applicaion.Features.order.Commands.CreateOrUpdatePayment;
+using Talabat.Application.Features.order.Commands.CreateOrUpdatePayment;
 
 namespace Talabat.API.Controllers
 {

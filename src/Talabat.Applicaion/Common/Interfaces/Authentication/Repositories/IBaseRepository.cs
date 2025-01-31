@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Talabat.Domain.baseEntity;
 
-namespace Talabat.Applicaion.Common.Interfaces.Authentication.Repositories
+namespace Talabat.Application.Common.Interfaces.Authentication.Repositories
 {
     public interface IBaseRepository<TEntity> where TEntity : BaseEntity
     {

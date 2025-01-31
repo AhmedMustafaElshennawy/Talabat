@@ -1,5 +1,5 @@
-﻿using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
-using Talabat.Applicaion.Common.Interfaces.UnitOfWork;
+﻿using Talabat.Applicaion.Common.Interfaces.UnitOfWork;
+using Talabat.Application.Common.Interfaces.Authentication.Repositories;
 using Talabat.Domain.order;
 using Talabat.Domain.product;
 using Talabat.Domain.productBrand;

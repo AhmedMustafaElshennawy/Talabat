@@ -1,6 +1,6 @@
-﻿using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
-using Talabat.Applicaion.Common.Interfaces.UnitOfWork;
+﻿using Talabat.Applicaion.Common.Interfaces.UnitOfWork;
 using Talabat.Applicaion.Services.Payment;
+using Talabat.Application.Common.Interfaces.Authentication.Repositories;
 using Talabat.Domain.order;
 
 namespace Talabat.Applicaion.Services.order

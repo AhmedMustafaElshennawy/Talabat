@@ -1,8 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Talabat.Applicaion.Features.basket.Commands.CreateCustomerBaskets;
-using Talabat.Applicaion.Features.basket.Commands.DeleteCustomerBaskets;
-using Talabat.Applicaion.Features.basket.Queries.GetCustomerBasket;
+using Talabat.Application.Features.basket.Commands.CreateCustomerBaskets;
+using Talabat.Application.Features.basket.Commands.DeleteCustomerBaskets;
+using Talabat.Application.Features.basket.Queries.GetCustomerBasket;
 using Talabat.Domain.basket;
 
 namespace Talabat.API.Controllers

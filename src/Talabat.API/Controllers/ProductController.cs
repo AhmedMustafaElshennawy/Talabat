@@ -1,12 +1,13 @@
 ﻿using Mapster;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Talabat.Applicaion.Features.product.Queries.GetAllProducts;
-using Talabat.Applicaion.Features.product.Queries.GetProductById;
-using Talabat.Applicaion.Features.product.Queries.GetAllProductTypes;
+using Talabat.Application.DTOs.product;
+using Talabat.Application.Features.product.Queries.GetAllProductBrands;
+using Talabat.Application.Features.product.Queries.GetAllProducts;
+using Talabat.Application.Features.product.Queries.GetAllProductTypes;
+using Talabat.Application.Features.product.Queries.GetProductById;
 using Talabat.Shared.Paging;
-using Talabat.Applicaion.DTOs.product;
-using Talabat.Applicaion.Features.product.Queries.GetAllProductBrands;
+
 
 namespace Talabat.API.Controllers
 {

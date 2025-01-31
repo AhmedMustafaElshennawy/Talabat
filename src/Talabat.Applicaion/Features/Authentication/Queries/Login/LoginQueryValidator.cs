@@ -1,12 +1,6 @@
 ﻿using FluentValidation;
-using Microsoft.Identity.Client;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Talabat.Applicaion.Features.Authentication.Queries.Login
+namespace Talabat.Application.Features.Authentication.Queries.Login
 {
     public class LoginQueryValidator:AbstractValidator<LoginQuery>
     {

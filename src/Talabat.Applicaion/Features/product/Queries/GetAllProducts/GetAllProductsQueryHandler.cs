@@ -1,13 +1,13 @@
 ﻿using ErrorOr;
 using MediatR;
 using System.Linq.Expressions;
-using Talabat.Applicaion.Common.Interfaces.Authentication.Repositories;
-using Talabat.Applicaion.DTOs.product;
-using Talabat.Applicaion.Extention;
+using Talabat.Application.Common.Interfaces.Authentication.Repositories;
+using Talabat.Application.DTOs.product;
+using Talabat.Application.Extention;
 using Talabat.Domain.product;
 using Talabat.Shared.Paging;
 
-namespace Talabat.Applicaion.Features.product.Queries.GetAllProducts
+namespace Talabat.Application.Features.product.Queries.GetAllProducts
 {
     public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQuery, ErrorOr<PaginatedResponse<GetAllProductResponse>>>
     {

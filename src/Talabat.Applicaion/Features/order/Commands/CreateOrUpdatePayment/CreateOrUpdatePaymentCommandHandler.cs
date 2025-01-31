@@ -2,10 +2,10 @@
 using Mapster;
 using MapsterMapper;
 using MediatR;
-using Talabat.Applicaion.DTOs.customerBasket;
 using Talabat.Applicaion.Services.Payment;
+using Talabat.Application.DTOs.customerBasket;
 
-namespace Talabat.Applicaion.Features.order.Commands.CreateOrUpdatePayment
+namespace Talabat.Application.Features.order.Commands.CreateOrUpdatePayment
 {
     public class CreateOrUpdatePaymentCommandHandler : IRequestHandler<CreateOrUpdatePaymentCommand, ErrorOr<CustomerBasketDto>>
     {

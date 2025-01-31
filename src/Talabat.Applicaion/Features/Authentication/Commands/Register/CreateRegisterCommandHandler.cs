@@ -1,15 +1,12 @@
 ﻿using ErrorOr;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using System.Diagnostics.Metrics;
-using System.Threading.Tasks;
-using Talabat.Applicaion.Common.Interfaces.Authentication;
 using Talabat.Applicaion.Common.Interfaces.UnitOfWork;
-using Talabat.Applicaion.DTOs.Authentication;
+using Talabat.Application.Common.Interfaces.Authentication;
 using Talabat.Domain.identity;
 using Error = ErrorOr.Error;
 
-namespace Talabat.Applicaion.Features.Authentication.Commands.RegisterCommand
+namespace Talabat.Application.Features.Authentication.Commands.RegisterCommand
 {
     public record RegisterResult(
         ApplicationUser User,

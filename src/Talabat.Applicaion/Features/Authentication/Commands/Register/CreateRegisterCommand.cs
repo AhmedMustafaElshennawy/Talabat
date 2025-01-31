@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Talabat.Applicaion.DTOs.Authentication;
 
-namespace Talabat.Applicaion.Features.Authentication.Commands.RegisterCommand
+namespace Talabat.Application.Features.Authentication.Commands.RegisterCommand
 {
     public record CreateRegisterCommand (string FName,
         string LName,   
