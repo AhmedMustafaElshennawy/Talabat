@@ -9,11 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.API", "src\Talabat.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Domain", "src\Talabat.Domain\Talabat.Domain.csproj", "{C0D9D4FF-8DCC-4E70-9580-98D0C99D067E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Application", "src\Talabat.Applicaion\Talabat.Application.csproj", "{04C4CBF1-CF3C-4CE2-BA60-0A1A78FF8CDC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Infrastructure", "src\Talabat.Infrastrucure\Talabat.Infrastructure.csproj", "{20E4A7B3-8F72-42B7-B078-68437406B7A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Shared", "src\Talabat.Shared\Talabat.Shared.csproj", "{69F62AA5-56F8-4709-81A3-8690BD8E29A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Application", "src\Talabat.Application\Talabat.Application.csproj", "{8060F1EC-5B43-431A-AA92-15CB22C87F23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		{C0D9D4FF-8DCC-4E70-9580-98D0C99D067E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0D9D4FF-8DCC-4E70-9580-98D0C99D067E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0D9D4FF-8DCC-4E70-9580-98D0C99D067E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04C4CBF1-CF3C-4CE2-BA60-0A1A78FF8CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04C4CBF1-CF3C-4CE2-BA60-0A1A78FF8CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04C4CBF1-CF3C-4CE2-BA60-0A1A78FF8CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04C4CBF1-CF3C-4CE2-BA60-0A1A78FF8CDC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{20E4A7B3-8F72-42B7-B078-68437406B7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{20E4A7B3-8F72-42B7-B078-68437406B7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20E4A7B3-8F72-42B7-B078-68437406B7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +37,10 @@ Global
 		{69F62AA5-56F8-4709-81A3-8690BD8E29A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69F62AA5-56F8-4709-81A3-8690BD8E29A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69F62AA5-56F8-4709-81A3-8690BD8E29A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8060F1EC-5B43-431A-AA92-15CB22C87F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8060F1EC-5B43-431A-AA92-15CB22C87F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8060F1EC-5B43-431A-AA92-15CB22C87F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8060F1EC-5B43-431A-AA92-15CB22C87F23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,8 +48,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{593CA3EE-607C-4CB7-9AF7-9955DEBA7C28} = {C148EC7F-ACBB-4D7E-A675-872794F87D12}
 		{C0D9D4FF-8DCC-4E70-9580-98D0C99D067E} = {C148EC7F-ACBB-4D7E-A675-872794F87D12}
-		{04C4CBF1-CF3C-4CE2-BA60-0A1A78FF8CDC} = {C148EC7F-ACBB-4D7E-A675-872794F87D12}
 		{20E4A7B3-8F72-42B7-B078-68437406B7A1} = {C148EC7F-ACBB-4D7E-A675-872794F87D12}
 		{69F62AA5-56F8-4709-81A3-8690BD8E29A5} = {C148EC7F-ACBB-4D7E-A675-872794F87D12}
+		{8060F1EC-5B43-431A-AA92-15CB22C87F23} = {C148EC7F-ACBB-4D7E-A675-872794F87D12}
 	EndGlobalSection
 EndGlobal
