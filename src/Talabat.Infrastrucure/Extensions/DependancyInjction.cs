@@ -17,7 +17,7 @@ using Talabat.Infrastructure.Common.Interfaces.Repositories;
 using Talabat.Infrastructure.Common.Interfaces.unitOfWork;
 using Talabat.Infrastructure.Services.Payment;
 
-namespace Talabat.Infrastructure.Extention
+namespace Talabat.Infrastructure.Extensions
 {
     public static class DependancyInjction
     {

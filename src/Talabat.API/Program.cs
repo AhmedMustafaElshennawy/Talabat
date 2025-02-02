@@ -1,17 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using Talabat.Infrastructure.Common.DataSeed;
-using Talabat.Infrastructure.Common.Presistance;
-using Talabat.Infrastructure.Extention;
 using Microsoft.OpenApi.Models;
 using Mapster;
 using Talabat.API.MappingConfiguration;
 using StackExchange.Redis;
-using Microsoft.AspNetCore.Identity;
-using Talabat.Domain.identity;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Talabat.Application.Extention;
+using Talabat.Application.Extensions;
+using Talabat.Infrastructure.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 

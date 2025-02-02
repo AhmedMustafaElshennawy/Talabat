@@ -9,7 +9,7 @@ using Talabat.Shared.Paging;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
-namespace Talabat.Application.Extention
+namespace Talabat.Application.Extensions
 {
     public static class QuerableExtension
     {

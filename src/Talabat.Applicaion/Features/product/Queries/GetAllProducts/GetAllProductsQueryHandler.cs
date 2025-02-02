@@ -3,7 +3,7 @@ using MediatR;
 using System.Linq.Expressions;
 using Talabat.Application.Common.Interfaces.Authentication.Repositories;
 using Talabat.Application.DTOs.product;
-using Talabat.Application.Extention;
+using Talabat.Application.Extensions;
 using Talabat.Domain.product;
 using Talabat.Shared.Paging;
 
