@@ -29,12 +29,6 @@ namespace Talabat.Application.Features.Authentication.Commands.RegisterCommand
             _unitOfWork = unitOfWork;
             _roleManager = roleManager;
         }
-        public async Task<bool> CheckIfEmailExists(string email)
-        {
-            var result = await _userManager.FindByEmailAsync(email);
-            if (result is null) return true;
-            return false;
-        }
         public async Task<ErrorOr<RegisterResult>> Handle(CreateRegisterCommand request, CancellationToken cancellationToken)
         {
             var roleExists = await _roleManager.RoleExistsAsync(_defaultRole);
@@ -48,7 +42,7 @@ namespace Talabat.Application.Features.Authentication.Commands.RegisterCommand
                 }
             }
 
-            if (!await CheckIfEmailExists(request.Email) is true)
+            if (await _userManager.FindByEmailAsync(request.Email) is not null)
             {
                 return Error.Failure(
                     code: "Email.Failure",
