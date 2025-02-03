@@ -38,9 +38,11 @@ namespace Talabat.Application.Features.product.Queries.GetAllProducts
                 cancellationToken);
 
             if (paginatedProducts is null || !paginatedProducts.Data.Any())
+            {
                 return Error.NotFound(
-                    code: "Products.NotFound",
-                    description: "There Is No Products Found.");
+                   code: "Products.NotFound",
+                   description: "There Is No Products Found.");
+            }
 
             var products = paginatedProducts.Data.Select(product => new GetAllProductResponse
             {
