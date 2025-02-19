@@ -16,6 +16,7 @@ namespace Talabat.API.Controllers
     {
         private readonly ISender _sender;
         public AccountController(ISender sender) => _sender = sender;
+        
         [HttpPost]
         public async Task<IActionResult> Register([FromForm]RegisterRequest request)
         {
@@ -46,6 +47,7 @@ namespace Talabat.API.Controllers
 
             return response;
         }
+
         [HttpGet]
         public async Task<IActionResult>Login(LoginRequest request)
         {
@@ -61,6 +63,7 @@ namespace Talabat.API.Controllers
 
             return response;
         }
+
         [Authorize]
         [HttpPost]
         public async Task<IActionResult> LogOut()
@@ -75,6 +78,7 @@ namespace Talabat.API.Controllers
 
             return response;
         }
+
         [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetCurrentUser()
@@ -89,6 +93,7 @@ namespace Talabat.API.Controllers
 
             return response;
         }
+
         [HttpGet]
         public async Task<IActionResult> CheckEmailExists(string Email)
         {

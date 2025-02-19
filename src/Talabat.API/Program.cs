@@ -18,7 +18,6 @@ builder.Services.AddApplicaion();
 builder.Services.AddCors();
 
 TypeAdapterConfig.GlobalSettings.Scan(typeof(MappingConfigurations).Assembly);
-
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Talabat", Version = "v1" });
